@@ -15,6 +15,25 @@
         <next>
           <block type="oled_drawtext" id="85">
             <field name="TEXT">DVMA SUCKS</field>
+            <next>
+              <block type="oled_setcursor" id="95" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="102">
+                    <field name="NUM">20</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="115">
+                    <field name="NUM">20</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="132">
+                    <field name="TEXT">So by felicia and fuck her right in the pussy</field>
+                  </block>
+                </next>
+              </block>
+            </next>
           </block>
         </next>
       </block>
