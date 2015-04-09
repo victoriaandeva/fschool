@@ -1,64 +1,64 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="oled_cleardisplay" id="1" x="268" y="152">
+  <block type="oled_cleardisplay" id="1" x="157" y="84">
     <next>
-      <block type="oled_setcursor" id="41" inline="true">
+      <block type="oled_setcursor" id="2" inline="true">
         <value name="STARTX">
-          <block type="math_number" id="48">
+          <block type="math_number" id="3">
             <field name="NUM">5</field>
           </block>
         </value>
         <value name="STARTY">
-          <block type="math_number" id="55">
+          <block type="math_number" id="4">
             <field name="NUM">5</field>
           </block>
         </value>
         <next>
-          <block type="oled_drawtext" id="85">
+          <block type="oled_drawtext" id="5">
             <field name="TEXT">My anaconda dont</field>
             <next>
-              <block type="oled_setcursor" id="95" inline="true">
+              <block type="oled_setcursor" id="6" inline="true">
                 <value name="STARTX">
-                  <block type="math_number" id="102">
+                  <block type="math_number" id="7">
                     <field name="NUM">5</field>
                   </block>
                 </value>
                 <value name="STARTY">
-                  <block type="math_number" id="115">
+                  <block type="math_number" id="8">
                     <field name="NUM">15</field>
                   </block>
                 </value>
                 <next>
-                  <block type="oled_drawtext" id="132">
+                  <block type="oled_drawtext" id="9">
                     <field name="TEXT">My anaconda dont</field>
                     <next>
-                      <block type="oled_setcursor" id="149" inline="true">
+                      <block type="oled_setcursor" id="10" inline="true">
                         <value name="STARTX">
-                          <block type="math_number" id="156">
+                          <block type="math_number" id="11">
                             <field name="NUM">5</field>
                           </block>
                         </value>
                         <value name="STARTY">
-                          <block type="math_number" id="163">
+                          <block type="math_number" id="12">
                             <field name="NUM">25</field>
                           </block>
                         </value>
                         <next>
-                          <block type="oled_drawtext" id="172">
+                          <block type="oled_drawtext" id="13">
                             <field name="TEXT">My anaconda dont want none</field>
                             <next>
-                              <block type="oled_setcursor" id="181" inline="true">
+                              <block type="oled_setcursor" id="14" inline="true">
                                 <value name="STARTX">
-                                  <block type="math_number" id="197">
+                                  <block type="math_number" id="15">
                                     <field name="NUM">5</field>
                                   </block>
                                 </value>
                                 <value name="STARTY">
-                                  <block type="math_number" id="204">
+                                  <block type="math_number" id="16">
                                     <field name="NUM">35</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="oled_drawtext" id="213">
+                                  <block type="oled_drawtext" id="17">
                                     <field name="TEXT">Unless you got buns hun</field>
                                   </block>
                                 </next>
